@@ -15,24 +15,20 @@ function badanie (nazwa, koszt, url){
   this.url = url
 }
 
-	// TUTAJ TWORZYMY DOSTĘPNE BADANIA
+	// TUTAJ PRZECHOWUJEMY DOSTĘPNE BADANIA
 
 kartyBadan[0] = new badanie("Skafander", 1000, '<img src="images/skafander.png" alt="Skafander" />');
 kartyBadan[1] = new badanie("Transport", 3000, '<img src="images/transport.png" alt="Transport" />');
 kartyBadan[2] = new badanie("Stacja", 5000, '<img src="images/stacja.png" alt="Stacja" />');
-
 kartyBadan[3] = new badanie("Kapsula", 1000, '<img src="images/kapsula.png" alt="Kapsula" />');
 kartyBadan[4] = new badanie("Stealth", 3000, '<img src="images/stealth.png" alt="Stealth" />');
 kartyBadan[5] = new badanie("Rakieta", 5000, '<img src="images/rakieta.png" alt="Rakieta" />');
-
 kartyBadan[6] = new badanie("Łazik", 1000, '<img src="images/lazik.png" alt="Łazik" />');
 kartyBadan[7] = new badanie("Zwiad", 3000, '<img src="images/zwiad.png" alt="Zwiad" />');
 kartyBadan[8] = new badanie("Gauss", 5000, '<img src="images/gauss.png" alt="Gauss" />');
-
 kartyBadan[9] = new badanie("Tankowanie", 1000, '<img src="images/tankowanie.png" alt="Tankowanie" />');
 kartyBadan[10] = new badanie("Silnik", 3000, '<img src="images/silnik.png" alt="Silnik" />');
 kartyBadan[11] = new badanie("CERN", 5000, '<img src="images/cern.png" alt="CERN" />');
-
 kartyBadan[12] = new badanie("Teleskop", 1000, '<img src="images/teleskop.png" alt="Teleskop" />');
 kartyBadan[13] = new badanie("Satelita", 3000, '<img src="images/satelita.png" alt="Satelita" />');
 kartyBadan[14] = new badanie("Nanotechnologia", 5000, '<img src="images/nano.png" alt="Nanotechnologia" />');
@@ -81,7 +77,7 @@ $(function(){
     if (taBada){
       if(iloscFunduszy < taBada.koszt){
           alert('Nie posiadasz wystarczającej ilości funduszy przez co tracisz ruch.');
-          socket.emit('build', 'Utracił ruch');
+          socket.emit('build', ' Utracił ruch');
       } else {
         kosztBadania = 0-taBada.koszt;
         dodajFundusze(kosztBadania);
@@ -116,7 +112,7 @@ $(function(){
 
 socket.on('connect', function() {
 
-	//call the server-side function 'adduser' and send one parameter (value of prompt)
+	// Wywołanie server z dodatniem usera (call the server-side function 'adduser' and send one parameter)
   
   socket.emit('adduser', prompt("Podaj nick"));
 });
@@ -188,7 +184,7 @@ function drukujDostępneBadania(){
   $('#cardsToPlay').html(tekst);
 }
 
-	// DODANIE FUNDUSZY
+	// DODAWANIE FUNDUSZY
 
 function dodajFundusze(ilosc){
   iloscFunduszy += ilosc;

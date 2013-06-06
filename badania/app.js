@@ -73,7 +73,7 @@ io.sockets.on('connection', function(socket){
     console.log('\n\n--------------------\nGracz ' + socket.username + data + '\n\n');
     console.log('\n\n--------------------\nWysyłam updateinfo\n\n');
     socket.broadcast.to('room1').emit('updateinfo', socket.username  + data);
-    socket.emit('updateinfo', 'Ruch podjęty: ' + data);
+    socket.emit('updateinfo', ' Ruch podjęty: ' + data);
   });
 
   socket.on('endofround', function(data){
