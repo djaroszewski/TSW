@@ -17,25 +17,25 @@ function badanie (nazwa, koszt, url){
 
 	// TUTAJ TWORZYMY DOSTĘPNE BADANIA
 
-kartyBadan[0] = new badanie("Chrzcielnica", 1000, '<img src="images/chrzielnica.png" alt="Chrzcielnica" />');
-kartyBadan[1] = new badanie("Kościół", 3000, '<img src="images/kosciol.png" alt="Kościół" />');
-kartyBadan[2] = new badanie("Katedra", 5000, '<img src="images/katedra.png" alt="Katedra" />');
+kartyBadan[0] = new badanie("Skafander", 1000, '<img src="images/skafander.png" alt="Skafander" />');
+kartyBadan[1] = new badanie("Transport", 3000, '<img src="images/transport.png" alt="Transport" />');
+kartyBadan[2] = new badanie("Stacja", 5000, '<img src="images/stacja.png" alt="Stacja" />');
 
-kartyBadan[3] = new badanie("Latarnia morska", 1000, '<img src="images/latarniamorska.png" alt="Latarnia morska" />');
-kartyBadan[4] = new badanie("Szpital", 3000, '<img src="images/szpital.png" alt="Szpital" />');
-kartyBadan[5] = new badanie("Obserwatorium", 5000, '<img src="images/obserwatorium.png" alt="Obserwatorium" />');
+kartyBadan[3] = new badanie("Kapsula", 1000, '<img src="images/kapsula.png" alt="Kapsula" />');
+kartyBadan[4] = new badanie("Stealth", 3000, '<img src="images/stealth.png" alt="Stealth" />');
+kartyBadan[5] = new badanie("Rakieta", 5000, '<img src="images/rakieta.png" alt="Rakieta" />');
 
-kartyBadan[6] = new badanie("Dwór", 1000, '<img src="images/dwor.png" alt="Dwór" />');
-kartyBadan[7] = new badanie("Pałac", 3000, '<img src="images/palac.png" alt="Pałac" />');
-kartyBadan[8] = new badanie("Zamek", 5000, '<img src="images/zamek.png" alt="Zamek" />');
+kartyBadan[6] = new badanie("Łazik", 1000, '<img src="images/lazik.png" alt="Łazik" />');
+kartyBadan[7] = new badanie("Zwiad", 3000, '<img src="images/zwiad.png" alt="Zwiad" />');
+kartyBadan[8] = new badanie("Gauss", 5000, '<img src="images/gauss.png" alt="Gauss" />');
 
-kartyBadan[9] = new badanie("Targowisko", 1000, '<img src="images/targowisko.png" alt="Targowisko" />');
-kartyBadan[10] = new badanie("Tawerna", 3000, '<img src="images/tawerna.png" alt="Tawerna" />');
-kartyBadan[11] = new badanie("Ratusz", 5000, '<img src="images/ratusz.png" alt="Ratusz" />');
+kartyBadan[9] = new badanie("Tankowanie", 1000, '<img src="images/tankowanie.png" alt="Tankowanie" />');
+kartyBadan[10] = new badanie("Silnik", 3000, '<img src="images/silnik.png" alt="Silnik" />');
+kartyBadan[11] = new badanie("CERN", 5000, '<img src="images/cern.png" alt="CERN" />');
 
-kartyBadan[12] = new badanie("Zbrojownia", 1000, '<img src="images/zbrojownia.png" alt="Zbrojownia" />');
-kartyBadan[13] = new badanie("Strażnica", 3000, '<img src="images/straznica.png" alt="Strażnica" />');
-kartyBadan[14] = new badanie("Forteca", 5000, '<img src="images/forteca.png" alt="Forteca" />');
+kartyBadan[12] = new badanie("Teleskop", 1000, '<img src="images/teleskop.png" alt="Teleskop" />');
+kartyBadan[13] = new badanie("Satelita", 3000, '<img src="images/satelita.png" alt="Satelita" />');
+kartyBadan[14] = new badanie("Nanotechnologia", 5000, '<img src="images/nano.png" alt="Nanotechnologia" />');
 
 	// OBSŁUGA WYKONYWANIA RUCHU
 

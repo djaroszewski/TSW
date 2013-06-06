@@ -93,7 +93,7 @@ io.sockets.on('connection', function(socket){
         console.log('\n\n--------------------\nNowa Tura\n\n');
         socket.broadcast.to('room1').emit('newround');
         socket.emit('newround');
-        koniecRuchuGraczy = 0;
+        koniecRuchuGraczy = 	0;
       }
     }
   });
