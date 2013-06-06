@@ -1,0 +1,75 @@
+body{
+	background-color: #054480;
+	background-image: url('images/technof.png');
+	background-position: top;
+	background-repeat: repeat-x, repeat;
+	color: white;
+	font-family: times;
+	font-size: 12pt;
+	text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+}
+
+#container {
+
+
+}
+
+#left{
+	text-align: left;
+	width: 200px;
+	height: 200px;
+	margin-top: 10%;
+	margin-left: 10%;
+	float: left;
+}
+
+#center{
+	position: absolute;
+	margin-left: 25%;
+	margin-top: 10%;
+}
+
+#right{
+	width: 450px;
+	float: right;
+	margin-right: 20%;
+	margin-top: 10%;
+}
+
+#rightleft{
+	float: right;
+	padding-left: 5px;
+	width: 350px;
+}
+
+#rightright{
+	float: left;
+	width: 90px;
+	font-family: times;
+	font-size: 14pt;
+	color: white;
+}
+
+#action{
+	display: none;
+}
+
+#build{
+	display: none;
+}
+
+#gameInfo{
+	height: 100px;
+	width: 400px;
+	overflow-y: auto;
+	margin-left: 10px;
+
+}
+
+#howMany{
+	display: none;
+}

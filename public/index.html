@@ -1,0 +1,56 @@
+<html>
+	<head>
+    	<script src="/scripts/jQuery.js" type='text/javascript'></script>
+		<script src="/socket.io/socket.io.js" type='text/javascript'></script>
+		<script src="/scripts/connection.js" type='text/javascript'></script>
+    	<link rel="stylesheet" type="text/css" href="stylesheets/styles.css"></link>
+    	<title>Mistrz technologii</title>
+    	<meta http-equiv="Content-Type" content="text/html"; charset="utf-8">
+	</head>
+	<body>
+		<div id="container">
+
+			<div id="left">
+				<div id="isReady">
+					<input type="button" name="btnRd" id="btnReady" value="START" />
+				</div>
+				<div id="howMany">
+				</div>
+				<div id="choices">
+					<div id="action">
+						<input type="button" name="btnGold" id="btnGold" value="Uzyskaj fundusze" />
+						<input type="button" name="btnDis" id="btnDis" value="Badaj nowe technologie" />
+					</div>
+					<div id="build">
+						<input type="button" name="btnBuild" id="btnBuild" value="Opracowuję" />
+						<input type="button" name="btnBuild" id="btnNotBuild" value="Czekam" />
+					</div>
+				</div>
+			</div>
+			
+			<div id="center">
+				<!--<iframe src="gameInfo.html" width="420" heigth="500" seamless>
+				</iframe>-->
+				<div id="gameInfo">
+				</div>
+				<div id="districts">
+				</div>
+			</div>
+
+			<div id="right">
+				<div id="rightleft">
+					<div id="details">
+					</div>
+					<div id="cardsToPlay">
+					</div>
+				</div>
+			
+				<div id="rightright">
+					<div id="users">
+					</div>
+				</div>
+			</div>
+
+		</div>
+	</body>
+</html>
